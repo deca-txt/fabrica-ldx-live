@@ -25,4 +25,4 @@
 
 ## Próximo
 
-Integrar após este PASS, testar novamente produção pública e continuar M2. As features de Fase 2 permanecem ausentes/inativas neste marco.
+Integrado em `main` após PASS local. Pages build `35816390809` passou e Chromium público confirmou fluxos/rotas, assets e matriz de quatro viewports sem erros. M2–M3 também foram publicados; M4–M8 seguem isolados em `feat/phase2-foundation`.
