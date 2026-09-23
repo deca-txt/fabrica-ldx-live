@@ -2,48 +2,37 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fffaf8">
-  <meta name="description" content="Estratégia, conteúdo, design e tecnologia para experiências digitais de aprendizagem e operação.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Explore as soluções da Fábrica de Conteúdo · LDX Live por necessidade ou catálogo.">
   <title>Fábrica de Conteúdo · LDX Live</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script defer src="assets/js/catalog-data.js"></script>
   <script defer src="assets/js/app.js"></script>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Fábrica de Conteúdo, início"><span class="brand-mark" aria-hidden="true">f</span><span>Fábrica de<br><strong>Conteúdo</strong></span><span class="brand-divider"></span><span class="brand-live">LDX<br>Live</span></a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu"><span></span><span></span></button>
-    <nav id="main-nav" class="main-nav" aria-label="Navegação principal"><a href="#catalogo">Catálogo</a><a href="#processo">Como trabalhamos</a><a class="nav-live" href="#catalogo">LDX Live <span aria-hidden="true">↗</span></a></nav>
-  </header>
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy"><p class="eyebrow"><span></span> FÁBRICA DE CONTEÚDO <b>·</b> LDX LIVE</p>
-        <h1>Transformamos necessidades de aprendizagem e operação em <em>experiências digitais.</em></h1>
-        <p class="hero-description">Estratégia, conteúdo, design e tecnologia combinados para criar soluções que ajudam pessoas a aprender, praticar, consultar, comunicar e performar melhor.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#catalogo">Conheça nosso catálogo <span aria-hidden="true">↗</span></a><a class="text-link" href="#necessidades">Explorar por necessidade <span aria-hidden="true">↓</span></a></div>
-        <div class="hero-note"><span class="note-line"></span> Conteúdo que move pessoas e negócios.</div>
-      </div>
-      <div class="hero-art" aria-hidden="true"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-core"><span>LDX</span><small>LIVE</small></div><div class="art-node node-one">✳</div><div class="art-node node-two">↗</div><div class="art-node node-three">●</div><div class="art-caption">learning<br>experience<br><b>design</b></div><div class="art-index">01 <span>—</span> 20</div></div>
-      <div class="hero-bottom"><span>ESTRATÉGIA</span><i></i><span>CONTEÚDO</span><i></i><span>EXPERIÊNCIA</span></div>
-    </section>
-    <section class="intro section-wrap"><div class="section-kicker">01 / NOSSA ABORDAGEM</div><div class="intro-content"><h2>Da necessidade<br>à <em>experiência.</em></h2><div><p>Não trabalhamos apenas com formatos. Partimos do contexto, do público e do resultado esperado para desenhar a combinação mais adequada de conteúdo, interação e tecnologia.</p><a class="arrow-link" href="#processo">Conheça nosso processo <span>↗</span></a></div></div>
-      <div class="capabilities" aria-label="Nossas capacidades"><span>Learning Design</span><span>Content Design</span><span>UX/UI</span><span>Audiovisual</span><span>Desenvolvimento</span><span>SCORM &amp; LMS</span><span>Gamificação</span><span>Inteligência Artificial</span><span>QA</span></div>
-    </section>
-    <section class="catalog-section" id="catalogo"><div class="section-wrap"><div class="section-kicker">02 / CATÁLOGO DE SOLUÇÕES</div><div class="catalog-heading"><div><h2>O que podemos<br><em>construir.</em></h2><p>Explore por formato ou comece pelo problema que você precisa resolver.</p></div><div class="catalog-count"><strong id="solution-count">20</strong><span>soluções<br>para explorar</span></div></div>
-      <div class="catalog-toolbar"><div class="view-tabs" role="group" aria-label="Modo de exploração"><button class="view-tab active" type="button" data-mode="all" aria-pressed="true">Todas as soluções</button><button class="view-tab" type="button" data-mode="needs" aria-pressed="false">Por necessidade <span>↗</span></button></div><a class="catalog-top-link" href="#necessidades">Encontrar uma solução <span>↓</span></a></div>
-      <div class="needs-panel" id="necessidades"><div class="needs-head"><div><span class="filter-label">COMECE PELO DESAFIO</span><p>O que você precisa transformar?</p></div><button type="button" class="clear-filters" id="clear-filters">Limpar filtros <span>×</span></button></div><div class="need-chips" id="need-chips" aria-label="Filtrar soluções por necessidade"></div></div>
-      <div class="results-line"><span id="results-label" aria-live="polite">20 soluções</span><span>SELECIONE UMA SOLUÇÃO PARA EXPLORAR <b>↘</b></span></div>
-      <div class="solution-grid" id="solution-grid"></div>
-      <div class="empty-state" id="empty-state" hidden><span>↗</span><h3>Nenhuma solução encontrada.</h3><p>Tente selecionar outra necessidade ou limpe os filtros.</p><button class="button button-dark" id="empty-clear" type="button">Limpar filtros</button></div>
-    </div></section>
-    <section class="process-section" id="processo"><div class="section-wrap"><div class="section-kicker">03 / COMO TRABALHAMOS</div><div class="process-heading"><h2>Clareza em cada<br><em>etapa do caminho.</em></h2><p>Um processo colaborativo que conecta intenção, execução e evolução contínua.</p></div><div class="process-grid" id="process-grid"></div><div class="process-foot"><span>DO PRIMEIRO INSIGHT À PRÓXIMA POSSIBILIDADE.</span><span>LDX LIVE <b>●</b></span></div></div></section>
-    <section class="closing section-wrap"><span class="closing-orb" aria-hidden="true">✳</span><div><p class="eyebrow">IDEIAS QUE GANHAM VIDA</p><h2>Vamos transformar<br>o próximo desafio?</h2></div><a class="button button-primary" href="#catalogo">Explore as soluções <span>↗</span></a></section>
-  </main>
-  <footer class="site-footer"><a class="footer-brand" href="#home">Fábrica de Conteúdo <span>·</span> LDX Live</a><span>Experiências digitais para aprender, praticar e performar.</span><a href="#home">VOLTAR AO TOPO ↑</a></footer>
-  <dialog class="solution-dialog" id="solution-dialog" aria-labelledby="dialog-title"><button class="dialog-close" type="button" aria-label="Fechar detalhes">×</button><div class="dialog-content" id="dialog-content"></div></dialog>
+  <div class="app-shell">
+    <header class="app-header">
+      <button class="back-button" id="back-button" type="button" aria-label="Voltar" hidden>← <span>Voltar</span></button>
+      <a class="brand" href="#/home" aria-label="Fábrica de Conteúdo · LDX Live, início"><span class="brand-symbol" aria-hidden="true">k</span><span class="brand-name">Fábrica de Conteúdo <i>·</i> <b>LDX Live</b></span></a>
+      <nav class="desktop-nav" aria-label="Navegação principal"><a href="#/catalog">Catálogo</a><a href="#/needs">Por necessidade</a><a href="#/process">Como trabalhamos</a></nav>
+      <a class="header-cta" href="#/explore">Explorar <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="app-main" class="app-main" tabindex="-1" aria-live="polite">
+      <section class="screen screen-home" id="screen-home" data-screen="home" aria-labelledby="home-title">
+        <div class="home-layout"><div class="home-copy"><p class="eyebrow"><span></span> FÁBRICA DE CONTEÚDO <i>·</i> LDX LIVE</p><h1 id="home-title">Transformamos necessidades em experiências que fazem pessoas <em>aprender, praticar e performar.</em></h1><p class="home-support">Estratégia, conteúdo, design e tecnologia para construir experiências conectadas ao desafio real da operação.</p><div class="home-actions"><a class="button button-primary" href="#/explore">Conheça nosso catálogo <span>↗</span></a><a class="button button-secondary" href="#/process">Como trabalhamos <span>→</span></a></div></div><div class="home-visual" aria-hidden="true"><div class="visual-ring ring-a"></div><div class="visual-ring ring-b"></div><div class="visual-core"><span>LDX</span><small>LIVE</small></div><div class="visual-label label-a">LEARNING<br>EXPERIENCE</div><div class="visual-label label-b">DESIGN <span>↗</span></div><div class="visual-index">FÁBRICA <b>01 — 20</b></div></div></div>
+      </section>
+      <section class="screen" id="screen-explore" data-screen="explore" aria-labelledby="explore-title" hidden><div class="screen-inner explore-inner"><p class="screen-kicker">ESCOLHA SEU CAMINHO</p><h1 id="explore-title">Como você quer <em>explorar?</em></h1><p class="screen-intro">Comece pelo desafio que precisa resolver ou navegue por todas as possibilidades.</p><div class="path-cards"><a class="path-card path-primary" href="#/needs"><span class="path-index">01 <i>· NECESSIDADE</i></span><span class="path-icon" aria-hidden="true">◎</span><h2>Tenho um desafio</h2><p>Selecione o que você precisa transformar e veja as soluções mais aderentes.</p><span class="path-action">Explorar por necessidade <b>↗</b></span></a><a class="path-card" href="#/catalog"><span class="path-index">02 <i>· CATÁLOGO</i></span><span class="path-icon" aria-hidden="true">▦</span><h2>Quero conhecer as soluções</h2><p>Navegue pelo catálogo completo da Fábrica de Conteúdo e LDX Live.</p><span class="path-action">Ver catálogo <b>↗</b></span></a></div></div></section>
+      <section class="screen" id="screen-needs" data-screen="needs" aria-labelledby="needs-title" hidden><div class="screen-inner needs-inner"><div class="screen-heading"><p class="screen-kicker">EXPLORE POR NECESSIDADE <span>01 / 02</span></p><h1 id="needs-title">O que você precisa <em>transformar?</em></h1><p class="screen-intro">Selecione uma ou mais necessidades.</p></div><div class="need-grid" id="need-grid"></div><div class="screen-actions needs-actions"><span class="selection-count" id="selection-count" aria-live="polite">Nenhuma necessidade selecionada</span><div><a class="quiet-link" href="#/catalog">Ver todas as soluções</a><button class="button button-primary" id="show-results" type="button" disabled>Ver soluções <span>→</span></button></div></div></div></section>
+      <section class="screen" id="screen-results" data-screen="results" aria-labelledby="results-title" hidden><div class="screen-inner"><div class="screen-heading"><p class="screen-kicker">SOLUÇÕES PARA SEU DESAFIO <span>02 / 02</span></p><h1 id="results-title">Soluções para o seu <em>desafio.</em></h1><div class="results-summary"><span id="selected-summary"></span><span class="results-count" id="results-count"></span></div></div><div class="screen-actions results-actions"><a class="quiet-link" href="#/needs">← Ajustar necessidades</a><a class="quiet-link" href="#/catalog">Ver catálogo completo ↗</a></div><div class="solution-grid" id="results-grid"></div><div class="empty-state" id="empty-state" hidden><h2>Ainda não encontramos uma solução.</h2><p>Experimente ajustar as necessidades selecionadas.</p><a class="button button-primary" href="#/needs">Ajustar necessidades</a></div></div></section>
+      <section class="screen" id="screen-catalog" data-screen="catalog" aria-labelledby="catalog-title" hidden><div class="screen-inner"><div class="screen-heading"><p class="screen-kicker">FÁBRICA DE CONTEÚDO · LDX LIVE</p><h1 id="catalog-title">Explore nossas <em>soluções.</em></h1><p class="screen-intro">20 possibilidades para transformar aprendizagem e operação.</p></div><div class="catalog-controls"><div class="category-filters" id="category-filters" role="group" aria-label="Filtrar por categoria"></div><span id="catalog-count" aria-live="polite"></span></div><div class="solution-grid" id="catalog-grid"></div><div class="empty-state" id="catalog-empty" hidden><h2>Nenhuma solução nesta categoria.</h2><button class="quiet-link" id="clear-category" type="button">Ver todas as categorias</button></div></div></section>
+      <section class="screen" id="screen-detail" data-screen="detail" aria-labelledby="detail-title" hidden><div class="detail-screen" id="detail-screen"></div></section>
+      <section class="screen" id="screen-process" data-screen="process" aria-labelledby="process-title" hidden><div class="screen-inner process-inner"><div class="screen-heading"><p class="screen-kicker">COMO TRABALHAMOS</p><h1 id="process-title">Da necessidade à <em>experiência.</em></h1><p class="screen-intro">Um processo colaborativo que conecta intenção, execução e evolução contínua.</p></div><div class="process-grid" id="process-grid"></div><div class="process-endnote">DO PRIMEIRO INSIGHT À PRÓXIMA POSSIBILIDADE.</div></div></section>
+    </main>
+    <footer class="app-footer"><span>Fábrica de Conteúdo <i>·</i> LDX Live</span><span id="screen-position">01 <b>/</b> 07</span></footer>
+  </div>
 </body>
 </html>
