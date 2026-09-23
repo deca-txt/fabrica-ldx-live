@@ -38,4 +38,4 @@ Sources and token rationale: [BRAND_TOKENS.md](BRAND_TOKENS.md). The primary and
 - [Solution detail mobile · 390×844](evidence/m1-detail-mobile.png)
 - [Process mobile · 390×844](evidence/m1-process-mobile.png)
 
-**Public deployment:** PASS — https://deca-txt.github.io/fabrica-ldx-live/ served the integrated M-1 at production HEAD `dc084cde042dfbfa92593eba300dbe630a7e3b31`; Pages workflow 35815673759 completed successfully. Repeated the interaction walk and full route × viewport matrix on the public URL. Public CSS/JS/font response failures: 0; console/page errors: 0.
+**Public deployment:** PASS — https://deca-txt.github.io/fabrica-ldx-live/ served the integrated M-1 code from `dc084cde042dfbfa92593eba300dbe630a7e3b31`; after the documentation-only validation commit, current production HEAD is `a3f313ce84a21923c277196e20e8eeadca80fb9a`. Pages workflows 35815673759 and 35815785435 completed successfully. Repeated the interaction walk and full route × viewport matrix on the public URL. Public CSS/JS/font response failures: 0; console/page errors: 0.
