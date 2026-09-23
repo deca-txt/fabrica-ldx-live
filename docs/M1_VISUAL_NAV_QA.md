@@ -1,6 +1,6 @@
 # M-1 — visual and navigation QA
 
-**Status local:** PASS — 2026-09-23  
+**Status local + GitHub Pages:** PASS — 2026-09-23  
 **Branch:** `fix/konecta-screen-navigation`
 
 ## Referências e tokens
@@ -38,4 +38,4 @@ Sources and token rationale: [BRAND_TOKENS.md](BRAND_TOKENS.md). The primary and
 - [Solution detail mobile · 390×844](evidence/m1-detail-mobile.png)
 - [Process mobile · 390×844](evidence/m1-process-mobile.png)
 
-**Public deployment check:** pending this M-1 candidate integration; production remains on the existing main until local gates pass.
+**Public deployment:** PASS — https://deca-txt.github.io/fabrica-ldx-live/ served the integrated M-1 at production HEAD `dc084cde042dfbfa92593eba300dbe630a7e3b31`; Pages workflow 35815673759 completed successfully. Repeated the interaction walk and full route × viewport matrix on the public URL. Public CSS/JS/font response failures: 0; console/page errors: 0.
