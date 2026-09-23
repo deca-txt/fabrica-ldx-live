@@ -45,7 +45,7 @@ Atualizado em 2026-09-23 (America/Sao_Paulo).
 |---|---|---|
 | M-1 Visual/Nav | PASS | `docs/M1_VISUAL_NAV_QA.md`, evidências visuais, validação Pages |
 | M0 Baseline e segurança | PASS | Este registro; Pages e varredura estática revistas |
-| M1 Hardening do MVP | PENDING | Próximo marco |
+| M1 Hardening do MVP | PASS local; Pages público pós-integração pendente | [docs/M1_HARDENING_QA.md](M1_HARDENING_QA.md) |
 | M2 Estado e arquitetura data-driven | PENDING | — |
 | M3 Feature flags | PENDING | — |
 | M4 Lead capture scaffold inativo | PENDING | — |
@@ -72,6 +72,7 @@ Atualizado em 2026-09-23 (America/Sao_Paulo).
 
 - `node --check assets/js/app.js` — PASS.
 - `node --check assets/js/catalog-data.js` — PASS.
+- M1 hardening Chromium local: keyboard/Enter/Escape/foco, fallback Poppins, malformed data, contraste, targets touch, 7 rotas × 4 viewports — PASS.
 - `git diff --check` — PASS.
 - HTTP local `python3 -m http.server 8080` — home/CSS/JS 200.
 - Chromium: fluxos, teclado/foco, refresh, Back/Forward, 4 viewports — PASS, 0 erros.
@@ -91,4 +92,4 @@ Atualizado em 2026-09-23 (America/Sao_Paulo).
 
 ## PRÓXIMO PASSO
 
-M1 Hardening do MVP na branch `feat/phase2-foundation`; corrigir apenas defeitos objetivos, revalidar gates e registrar o resultado. Manter produção no `main`.
+Publicar o M1 hardening após validação da branch; confirmar Pages/rotas/assets sem regressão; então iniciar M2 (validação determinística dos dados).
